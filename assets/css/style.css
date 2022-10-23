@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
 
 * {
-    margin:0;
+    margin: 0;
     padding: 0;
     border: none;
 }
@@ -15,7 +15,7 @@ body {
 /* headings and logo */
 
 h1, h2 {
-    font-family: oswald, sans-serif;
+    font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525;
@@ -34,23 +34,23 @@ h1, h2 {
     letter-spacing: 4px;
 }
 
-#menu , #logo {
+#menu, #logo {
     line-height: 75px;
 }
 
 #menu li {
     float: right;
     list-style-type: none;
-    margin: 30px;
-}
-
-#menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    margin-right: 30px;
 }
 
 #menu a {
     text-decoration: none;
     color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
 }
 
 .active {
@@ -121,13 +121,12 @@ h1, h2 {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: blue;
 }
 
 #right-about {
     padding-top: 30px;
     width: 33%;
-    float:right;
+    float: right;
     background-color: silver;
 }
 
@@ -135,4 +134,18 @@ h1, h2 {
     width: 33%;
     margin: 0 auto;
     background-color: green;
+}
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
 }
